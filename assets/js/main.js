@@ -16,5 +16,6 @@ window.addEventListener("scroll", function() {
     if (scrollY >= 70) {
         navbar_links.classList.remove(classNavbarActive);
         main.classList.remove(classMainActive);
+        iconNavbar.classList.replace("fa-xmark", "fa-bars");
     }
 });
